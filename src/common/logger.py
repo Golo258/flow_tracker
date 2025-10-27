@@ -38,7 +38,7 @@ class LoggerManager:
 
         formatter = logging.Formatter(
             "%(asctime)s [%(levelname)s] %(message)s",
-            datefmt="%Y-%m-%d %H:%M:%S.%f",
+            datefmt="%Y-%m-%d %H:%M:%S"
         )
 
         if console:
