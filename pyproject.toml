@@ -1,0 +1,14 @@
+[project]
+name = "flow-tracker"
+version = "0.1.0"
+description = "CLI app for planning and tracking focus sessions"
+authors = [{ name = "Grzegorz Golonka" }]
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
